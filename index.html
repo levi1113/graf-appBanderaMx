@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandera de México</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>Bandera de México</h1>
+            <p class="subtitle">Diseño interactivo profesional</p>
+        </header>
+
+        <!-- CONTROLES -->
+        <section class="controles">
+            <div class="card">
+                <h3>Verde • Esperanza</h3>
+                <input type="range" id="sliderVerde" min="0" max="255" value="128">
+                <span id="hexVerde">#008000</span>
+            </div>
+
+            <div class="card">
+                <h3>Rojo • Sangre de nuestros héroes</h3>
+                <input type="range" id="sliderRojo" min="0" max="255" value="128">
+                <span id="hexRojo">#800000</span>
+            </div>
+        </section>
+
+        <!-- BANDERA -->
+        <section class="bandera">
+            <div class="seccion verde">
+                <p>Esperanza</p>
+            </div>
+
+            <div class="seccion blanco">
+                <img 
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/Coat_of_arms_of_Mexico.svg" 
+                alt="Escudo Nacional"
+                class="escudo">
+                <p>Unidad</p>
+            </div>
+
+            <div class="seccion rojo">
+                <p>Sangre de nuestros héroes</p>
+            </div>
+        </section>
+
+        <!-- DATOS -->
+        <section class="datos">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Matrícula</th>
+                        <th>Institución</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>LEVI JAFET JUAREZ CHILPA</td>
+                        <td>23200852</td>
+                        <td>ITP</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
